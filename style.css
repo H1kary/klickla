@@ -577,6 +577,7 @@
     justify-content: center;
     background-color: rgba(29, 28, 34, 1);
     border-radius: 8px;
+    cursor: pointer;
     transition: all ease-in-out 0.3s;
 }
 .step-button:hover{
