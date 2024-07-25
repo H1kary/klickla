@@ -326,6 +326,9 @@
     /* z-index: -100; */
     position: absolute;
 }
+.re{
+    display: none;
+}
 .hero__bg .re{
     transition: all ease-in-out 0.3s;
 }
