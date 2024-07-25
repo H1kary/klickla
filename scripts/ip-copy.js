@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
   const textElement = document.getElementById('ip-button');
   const iconElement = document.getElementById('copy-icon');
 
-  const originalText = 'IP: mc.klickla.ru';
+  const originalText = 'IP: play.klickla.ru';
   const copiedText = 'Скопировано!';
 
   button.addEventListener('click', () => {
       const tempInput = document.createElement('input');
-      tempInput.value = 'mc.klickla.ru';
+      tempInput.value = 'play.klickla.ru';
       document.body.appendChild(tempInput);
       tempInput.select();
       tempInput.setSelectionRange(0, 99999); // For mobile devices
