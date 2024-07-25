@@ -322,12 +322,15 @@
     font-weight: 400;
 }
 
-.hero__bg *{
-    /* z-index: -100; */
-    position: absolute;
+.hero__bg{
+    display: none;
 }
 .re{
     display: none;
+}
+.hero__bg *{
+    /* z-index: -100; */
+    position: absolute;
 }
 .hero__bg .re{
     transition: all ease-in-out 0.3s;
