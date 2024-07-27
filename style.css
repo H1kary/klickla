@@ -216,6 +216,10 @@
     margin: 0 auto;
 }
 
+.hero__text-main, .hero__text-second, .hero__button-container, .hero__buttons-map-button, .hero__p{
+    visibility: hidden;
+}
+
 .hero-main{
     max-width: 573px;
     margin: 0 auto;
