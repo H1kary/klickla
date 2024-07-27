@@ -3,8 +3,9 @@ document.querySelector('.download-modpack').addEventListener('click', function()
 });
 
 document.querySelector('.step-rules').addEventListener('click', function() {
-    window.open('rules.html');
+    window.location.href = 'rules.html';
 });
+
 
 document.querySelector('.step-discord').addEventListener('click', function() {
     window.open('https://discord.gg/MpkMZzGceD');
